@@ -82,7 +82,7 @@
     <Button
         android:layout_marginTop="15dp"
         android:textAllCaps="false"
-        android:id="@+id/button"
+        android:id="@+id/loginbtn"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/forgetpass"
@@ -101,7 +101,7 @@
         android:id="@+id/or"
         android:text="OR"
         android:textColor="@color/gray"
-        android:layout_below="@id/button"
+        android:layout_below="@id/loginbtn"
         android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true">
 
@@ -109,9 +109,9 @@
 
     <ImageView
         android:layout_width="170dp"
-        android:layout_height="wrap_content"
+        android:layout_height="2dp"
         android:src="@drawable/grayline2"
-        android:layout_below="@id/button"
+        android:layout_below="@id/loginbtn"
         android:layout_marginTop="68dp"
         android:layout_marginLeft="15dp"
         >
@@ -120,9 +120,9 @@
 
     <ImageView
         android:layout_width="170dp"
-        android:layout_height="wrap_content"
+        android:layout_height="2dp"
         android:src="@drawable/grayline2"
-        android:layout_below="@id/button"
+        android:layout_below="@id/loginbtn"
         android:layout_marginTop="68dp"
         android:layout_marginLeft="230dp"
         android:layout_marginRight="15dp"
@@ -141,8 +141,9 @@
         >
 
     </TextView>
-    <TextView
 
+    <TextView
+        android:id="@+id/signuplink"
         android:layout_marginLeft="250dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
