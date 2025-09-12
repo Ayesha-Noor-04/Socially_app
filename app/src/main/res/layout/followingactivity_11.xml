@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/statusbar1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white">
+
+
+        <ImageView
+            android:id="@+id/statusbar12"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/whitestatusbar" />
+    </RelativeLayout>
+
+
+    <ScrollView
+
+        android:id="@+id/scrollable"
+        android:layout_below="@+id/statusbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@android:color/white">
+
+
+            <RelativeLayout
+                android:id="@+id/followingyoubar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <!-- FOLLOWING TEXT -->
+                        <TextView
+                            android:id="@+id/following_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/maroon"
+                            android:text="Following" />
+
+                        <!-- INDICATOR BAR -->
+                        <View
+                            android:id="@+id/following_indicator"
+                            android:layout_below="@id/following_text"
+                            android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="4dp"
+                        android:background="@color/maroon" />
+                    </RelativeLayout>
+
+
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/you_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="8dp"
+                            android:textSize="18sp"
+                            android:textColor="@color/maroon"
+                            android:text="You" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/firsta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/profile_image1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:id="@+id/activity_text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_image1"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignToEndOf="@id/profile_image1"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3 posts. 3h"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/bird_pics_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profile_image1"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+                    <ImageView
+                        android:id="@+id/pic1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/pic2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/pic3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:scaleType="centerCrop" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/firstb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <!-- Profile Image -->
+                <ImageView
+                    android:id="@+id/profile_imageb"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/activity_textb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imageb"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignToEndOf="@id/profile_imageb"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3 posts."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/activity_textbi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imageb"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/activity_textb"
+
+                    android:text="likde joshua photo"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/picb1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/birdpic2"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerCrop" />
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/firstc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <!-- Profile Image -->
+                <ImageView
+                    android:id="@+id/profile_imagec"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/activity_textc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imagec"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignToEndOf="@id/profile_imagec"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3 posts."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/activity_textci"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imagec"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/activity_textc"
+
+                    android:text="likde joshua photo"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+
+
+            </RelativeLayout>
+
+
+            <!-- 4th -->
+            <RelativeLayout
+                android:id="@+id/firstd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/profile_imaged"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:id="@+id/activity_textd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imaged"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignToEndOf="@id/profile_imaged"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3yerry posts. 3h"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/bird_pics_containerd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profile_imaged"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:id="@+id/picd1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:id="@+id/picd2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:id="@+id/picd3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:padding="2dp"
+
+                        android:id="@+id/picd4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:padding="2dp"
+                        android:id="@+id/picd5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/picd6"
+                        android:padding="2dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:scaleType="centerCrop" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_below="@id/bird_pics_containerd"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                <ImageView
+
+                    android:padding="2dp"
+                    android:id="@+id/picd7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/birdpic2"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/picd8"
+                    android:padding="2dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/birdpic2"
+                    android:scaleType="centerCrop" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/firste"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <!-- Profile Image -->
+                <ImageView
+                    android:id="@+id/profile_imagee"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/activity_texte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imagee"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignToEndOf="@id/profile_imagee"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3 posts."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/activity_textbe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imagee"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/activity_texte"
+
+                    android:text="likde joshua photo"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/picbe"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/birdpic2"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerCrop" />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/firstf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <!-- Profile Image -->
+                <ImageView
+                    android:id="@+id/profile_imagef"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/activity_textf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imagef"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignToEndOf="@id/profile_imagef"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3 posts."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/activity_textbf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imagef"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/activity_textf"
+
+                    android:text="likde joshua photo"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/picbf"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/birdpic2"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerCrop" />
+
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/firstg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <!-- Profile Image -->
+                <ImageView
+                    android:id="@+id/profile_imageg"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/activity_textg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imageg"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignToEndOf="@id/profile_imageg"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3 posts."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/activity_textbg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imageg"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/activity_textg"
+
+                    android:text="likde joshua photo"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/picbg"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/birdpic2"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerCrop" />
+
+
+
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/firsth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:id="@+id/profile_imageh"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/jacobpfp"
+                    android:scaleType="centerCrop" />
+
+
+                <TextView
+                    android:id="@+id/activity_texth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/profile_imageh"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignToEndOf="@id/profile_imageh"
+                    android:layout_marginTop="7dp"
+                    android:text="karennne liked 3 posts. 3h"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+                <LinearLayout
+                    android:id="@+id/bird_pics_containeh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/profile_imageh"
+                    android:layout_marginLeft="50dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp">
+
+                    <ImageView
+                        android:id="@+id/pichi"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/pichii"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:layout_marginEnd="4dp"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/pichiii"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/birdpic2"
+                        android:scaleType="centerCrop" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_marginTop="0dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="-30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tabbar" />
+
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ine" />
+    </RelativeLayout>
+
+</RelativeLayout>

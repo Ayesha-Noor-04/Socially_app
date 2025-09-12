@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Smda1"
         tools:targetApi="36">
         <activity
+            android:name=".youactivity_12"
+            android:exported="false" />
+        <activity
+            android:name=".Followingactivity11Activity"
+            android:exported="false" />
+        <activity
             android:name=".Jacobshome5Activity"
             android:exported="false" />
         <activity
