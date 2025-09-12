@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sbidp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:src="@drawable/graystatusbar2"
+        android:layout_alignParentTop="true">
+
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_below="@+id/sbidp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FAFAFA">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chevronleft"
+            android:layout_marginTop="10dp"
+            ></ImageView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/first"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/is"
+            >
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="internshala"
+            android:textSize="19dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/videocall"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/videocall"
+            android:layout_marginLeft="300dp"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="O"
+            android:layout_marginLeft="350dp"
+            android:textSize="40dp"
+            android:textColor="@color/maroon"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="52dp"
+            android:text="i"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="10dp"
+            android:textSize="27dp"
+            android:textColor="@color/maroon"
+            >
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4: 49 PM"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:layout_marginTop="550dp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/hello"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/graymessagebar"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="280dp"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:layout_marginTop="596dp"
+        android:layout_marginLeft="305dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ine"
+        android:paddingBottom="10dp">
+
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/messagebar"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:src="@drawable/graymessagebar2"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="20dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/micicon2"
+        android:layout_marginTop="645dp"
+        android:layout_marginLeft="260dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@drawable/sendpicture"
+        android:layout_marginTop="645dp"
+        android:layout_marginLeft="300dp">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@drawable/sendsticker"
+        android:layout_marginTop="645dp"
+        android:layout_marginLeft="340dp">
+
+    </ImageView>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="647dp"
+        android:layout_marginLeft="30dp"
+        android:text="⚪️"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:src="@drawable/filledcam"
+        android:layout_marginTop="652dp"
+        android:layout_marginLeft="34dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="655dp"
+        android:layout_marginLeft="75dp"
+        android:text="Message..."
+        android:textSize="18dp"
+        android:textColor="@color/gray">
+
+    </TextView>
+</RelativeLayout>

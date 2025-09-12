@@ -1,27 +1,25 @@
 package com.example.smda1
 
 import android.content.Intent
+import android.media.Image
 import android.os.Bundle
-import android.widget.RelativeLayout
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Searchpage7Activity : AppCompatActivity() {
+class Call10Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.searchpage_7)
+        setContentView(R.layout.call_10)
 
-
-        val btn=findViewById<RelativeLayout>(R.id.internshaladm)
+val btn=findViewById<ImageView>(R.id.call)
 
         btn.setOnClickListener{
-
-            val intent= Intent(this,Internshaladm9Activity::class.java)
+            val intent = Intent(this, Followingactivity11Activity::class.java)
             startActivity(intent)
-
         }
     }
 }
