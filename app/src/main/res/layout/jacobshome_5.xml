@@ -551,6 +551,7 @@
         android:background="@color/white">
 
         <ImageView
+            android:id="@+id/tabbari"
             android:layout_marginTop="0dp"
             android:scaleType="centerCrop"
             android:layout_marginLeft="10dp"

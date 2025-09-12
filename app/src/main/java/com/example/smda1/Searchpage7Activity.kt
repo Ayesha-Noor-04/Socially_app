@@ -1,26 +1,17 @@
 package com.example.smda1
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Searcgpage6Activity : AppCompatActivity() {
+class Searchpage7Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.searcgpage_6)
+        setContentView(R.layout.searchpage_7)
 
-val b=findViewById<EditText>(R.id.search_bar)
-
-        b.setOnClickListener{
-
-            val intent = Intent(this, Searchpage7Activity::class.java)
-            startActivity(intent)
-        }
 
     }
 }

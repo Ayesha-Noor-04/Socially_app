@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/statusbar1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/whitestatusbar"
+        >
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/searchbarinternshala"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:src="@drawable/searchbarrectangle"
+        android:layout_below="@+id/statusbar1"
+        android:layout_marginLeft="20dp">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/searchicon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/search"
+        android:layout_below="@+id/statusbar1"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="30dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="internshala"
+        android:layout_below="@+id/statusbar1"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/crossicon"
+        android:layout_width="15dp"
+        android:layout_height="20dp"
+        android:src="@drawable/cross"
+        android:layout_below="@+id/statusbar1"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="290dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/cleartext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textColor="@color/maroon3"
+        android:layout_marginLeft="330dp"
+        android:layout_below="@+id/statusbar1"
+        android:layout_marginTop="5dp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:weightSum="4"
+        android:layout_below="@+id/searchbarinternshala"
+        android:layout_marginTop="15dp"
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/toptext"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Top"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:textSize="17dp"
+                android:gravity="center">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blackline"
+                android:layout_marginTop="30dp"
+                ></ImageView>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Accounts"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:textSize="17dp"
+                android:textColor="@color/lightgray"
+                android:gravity="center"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tags"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:textSize="17dp"
+                android:textColor="@color/lightgray"
+                android:gravity="center"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Pages"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:textSize="17dp"
+                android:textColor="@color/lightgray"
+                android:gravity="center"
+                >
+
+            </TextView>
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="140dp"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/is"
+                android:layout_marginLeft="20dp"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/internshalatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="internshala"
+                android:layout_toRightOf="@+id/first"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="internshala"
+                android:layout_toRightOf="@+id/first"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/internshalatext"
+                android:textColor="@color/lightgray"
+                >
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hash"
+                android:layout_marginLeft="20dp"
+
+
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/internshalatext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#internshala"
+                android:layout_toRightOf="@+id/first1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000+ post"
+                android:layout_toRightOf="@+id/first1"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/internshalatext1"
+                android:textColor="@color/lightgray"
+                >
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hash"
+                android:layout_marginLeft="20dp"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/internshalatext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#internshala_nomoretheory_challenge"
+                android:layout_toRightOf="@+id/first2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500+ post"
+                android:layout_toRightOf="@+id/first2"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/internshalatext2"
+                android:textColor="@color/lightgray"
+                >
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hash"
+                android:layout_marginLeft="20dp"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/internshalatext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internshala"
+                android:layout_toRightOf="@+id/first3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internshala, B-610, Untech Business Zone,..."
+                android:layout_toRightOf="@+id/first3"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/internshalatext3"
+                android:textColor="@color/lightgray"
+                >
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hash"
+                android:layout_marginLeft="20dp"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/internshalatext4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="internshalastudentpartner"
+                android:layout_toRightOf="@+id/first4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500+ post"
+                android:layout_toRightOf="@+id/first4"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/internshalatext4"
+                android:textColor="@color/lightgray"
+                >
+            </TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/first5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hash"
+                android:layout_marginLeft="20dp"
+                >
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <TextView
+                android:id="@+id/internshalatext5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="internshalaincampus"
+                android:layout_toRightOf="@+id/first5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100+ post"
+                android:layout_toRightOf="@+id/first5"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@+id/internshalatext5"
+                android:textColor="@color/lightgray"
+                >
+            </TextView>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ine"
+        android:paddingBottom="10dp">
+
+
+    </ImageView>
+
+</RelativeLayout>
