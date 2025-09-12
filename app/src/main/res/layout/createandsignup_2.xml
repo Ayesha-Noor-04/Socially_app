@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/maroon2"
+    >
+
+
+    <ImageView
+        android:id="@+id/statusbar"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maroonstatusbar"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/socially"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Socially"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/statusbar">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_above="@+id/createandsignup"
+        android:src="@drawable/backarrow"
+        android:layout_marginBottom="15dp"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:text="@string/create_and_signup"
+        android:id="@+id/createandsignup"
+        android:layout_below="@+id/socially"
+        >
+    </TextView>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:maxHeight="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@color/white"
+        android:layout_below="@+id/createandsignup"
+        android:paddingTop="12dp"
+        app:civ_border_color="@color/black"
+        app:civ_border_width="2dp"
+        >
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/cameraicon"
+        android:layout_alignBaseline="@+id/dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp">
+
+    </ImageView>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_below="@+id/dp"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/un">
+
+    </TextView>
+
+    <EditText
+        android:paddingTop="13dp"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/un"
+        android:layout_marginLeft="25dp"
+        android:text="tejpatil064"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="25dp">
+
+    </EditText>
+
+    <TextView
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:layout_below="@+id/username"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/yn">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/tejas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yn"
+        android:layout_marginLeft="25dp"
+        android:text="Tejas"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="25dp">
+
+    </EditText>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Last Name"
+        android:layout_below="@+id/tejas"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/yln">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/patil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yln"
+        android:layout_marginLeft="25dp"
+        android:text="Patil"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="25dp">
+
+    </EditText>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:layout_below="@+id/patil"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/dob">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/date1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dob"
+        android:layout_marginLeft="25dp"
+        android:text="02 - 09 - 2003"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="25dp">
+
+    </EditText>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_below="@+id/date1"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/mail">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/mail1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail"
+        android:layout_marginLeft="25dp"
+        android:text="Enter E-mail"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="25dp">
+
+    </EditText>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/mail1"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/p">
+
+    </TextView>
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:text="•••••••••"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="25dp">
+
+    </EditText>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p"
+        android:src="@drawable/eye"
+        android:layout_alignEnd="@+id/pass">
+
+    </ImageView>
+
+    <Button
+        android:textAllCaps="false"
+        android:backgroundTint="@null"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Create an Account"
+        android:textSize="20sp"
+        android:textColor="@color/buttonoutline"
+        android:background="@drawable/button"
+        />
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:paddingBottom="10dp">
+
+
+    </ImageView>
+
+
+</RelativeLayout>

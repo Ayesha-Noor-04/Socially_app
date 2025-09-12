@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maroon">#844444</color>
+    <color name="maroon2">#904742</color>
+    <color name="maroonbutton">#A67B77</color>
+    <color name="buttonoutline">#C79E98</color>
+    <color name="maroon3">#945150</color>
+    <color name="gray">#646464</color>
+    <color name="lightmaroon">#9B5A5B</color>
+    <color name="lightgray">#ADADAD</color>
+    <color name="lightblue">#0725E0</color>
+</resources>

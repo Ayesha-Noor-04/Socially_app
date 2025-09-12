@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/socially"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Socially"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/arrow"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textColor="@color/maroon"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_below="@+id/socially"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="asad_khasanov"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textColorHint="#2A2929"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_below="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textColorHint="#757272"
+        android:textSize="15dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/statusbar1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/whitestatusbar"
+        >
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left"
+        android:layout_below="@+id/statusbar1"
+        android:layout_marginLeft="30dp"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/forgetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget password?"
+        android:textColor="@color/maroon"
+        android:layout_below="@+id/password"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        ></TextView>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/forgetpass"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="Log in"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button2"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/or"
+        android:text="OR"
+        android:textColor="@color/gray"
+        android:layout_below="@id/button"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grayline2"
+        android:layout_below="@id/button"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="15dp"
+        >
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grayline2"
+        android:layout_below="@id/button"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginRight="15dp"
+        >
+
+    </ImageView>
+    <TextView
+        android:id="@+id/dhaasu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:layout_below="@+id/or"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/gray"
+        >
+
+    </TextView>
+    <TextView
+
+        android:layout_marginLeft="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up."
+        android:layout_below="@+id/or"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/maroonbutton"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/gbar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grayline2"
+        android:layout_below="@id/dhaasu"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        >
+
+    </ImageView>
+
+
+
+    <TextView
+        android:id="@+id/slly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bar"
+        android:text="Socially"
+        android:textColor="@color/maroon"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        >
+
+    </TextView>
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ine"
+        android:paddingBottom="10dp">
+
+
+    </ImageView>
+
+</RelativeLayout>
