@@ -2,25 +2,32 @@ package com.example.smda1
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Jacobsprofile13Activity : AppCompatActivity() {
+class Editjacob15Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.jacobsprofile_13)
+        setContentView(R.layout.editjacob_15)
 
+        val a = findViewById<TextView>(R.id.done)
 
-        val w = findViewById<Button>(R.id.button)
-
-        w.setOnClickListener {
-            val intent = Intent(this, Editjacob15Activity::class.java)
+        a.setOnClickListener {
+            val intent = Intent(this, Jacobsprofile13Activity::class.java)
             startActivity(intent)
         }
+
+        val b = findViewById<TextView>(R.id.cancel)
+
+        b.setOnClickListener {
+            val intent = Intent(this, Jacobsprofile13Activity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:background="@color/white"
     android:layout_height="match_parent">
@@ -267,7 +268,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
-                android:src="@drawable/jacobpfp"
+                android:src="@drawable/random1"
                 android:padding="2dp" />
 
             <TextView
@@ -287,7 +288,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
-                android:src="@drawable/jacobpfp"
+                android:src="@drawable/random13"
                 android:padding="2dp" />
 
             <TextView
@@ -306,7 +307,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
-                android:src="@drawable/jacobpfp"
+                android:src="@drawable/random3"
                 android:padding="2dp" />
 
             <TextView
@@ -326,7 +327,7 @@
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
-                android:src="@drawable/jacobpfp"
+                android:src="@drawable/random20"
                 android:padding="2dp" />
 
             <TextView
@@ -416,7 +417,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic2" />
+                        android:src="@drawable/random11" />
 
                     <!-- Repeat above ImageView 20 more times or use a loop in code -->
 
@@ -427,7 +428,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random12" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -435,7 +436,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random13" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -443,7 +444,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random14" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -451,7 +452,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random15" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -459,7 +460,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random16" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -467,7 +468,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random17" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -475,7 +476,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random18" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -483,7 +484,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random19" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -491,7 +492,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random20" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -499,14 +500,14 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random10" />
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random11" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -514,7 +515,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random12" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -522,7 +523,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random13" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -530,7 +531,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random14" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -538,7 +539,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random15" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -546,14 +547,14 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random16" />
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random17" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -561,7 +562,7 @@
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/birdpic" />
+                        android:src="@drawable/random18" />
 
                     <ImageView
                     android:layout_width="0dp"
@@ -569,19 +570,16 @@
                     android:layout_columnWeight="1"
                     android:layout_margin="1dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/birdpic" />
+                    android:src="@drawable/random19" />
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_height="120dp"
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
-                        android:scaleType="centerCrop"
+                        android:scaleType="random20"
                         android:src="@drawable/birdpic" />
 
-
-
-                    <!-- Continue adding up to 21 images total -->
 
                 </GridLayout>
 
