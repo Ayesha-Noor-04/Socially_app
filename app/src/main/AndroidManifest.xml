@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Smda1"
         tools:targetApi="36">
         <activity
+            android:name=".Craigstory18Activity"
+            android:exported="false" />
+        <activity
             android:name=".Call10Activity"
             android:exported="false" />
         <activity

@@ -104,7 +104,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/jacobpfp"
+                        android:src="@drawable/story4"
                         android:scaleType="centerCrop"/>
 
                     <TextView
@@ -119,6 +119,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+
                     android:layout_width="72dp"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
@@ -126,9 +127,10 @@
                     android:padding="6dp">
 
                     <ImageView
+                        android:id="@+id/craigsstory"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/jacobpfp"
+                        android:src="@drawable/story1"
 
                         android:scaleType="centerCrop" />
 
@@ -153,7 +155,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/jacobpfp"
+                        android:src="@drawable/story2"
 
                         android:scaleType="centerCrop" />
 
@@ -178,7 +180,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/jacobpfp"
+                        android:src="@drawable/story3"
 
                         android:scaleType="centerCrop" />
 
@@ -203,7 +205,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/jacobpfp"
+                        android:src="@drawable/joshua"
 
                         android:scaleType="centerCrop" />
 
@@ -228,7 +230,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@drawable/jacobpfp"
+                        android:src="@drawable/martini"
 
                         android:scaleType="centerCrop" />
 
@@ -260,9 +262,9 @@
 
                 <ImageView
                     android:id="@+id/post_profile_pic"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/joshua"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true" />
 
@@ -302,7 +304,7 @@
                 android:layout_height="300dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/birdpic2" />
+                android:src="@drawable/poke1" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -446,7 +448,7 @@
                 android:layout_height="300dp"
                 android:layout_marginTop="8dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/birdpic2" />
+                android:src="@drawable/random2" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

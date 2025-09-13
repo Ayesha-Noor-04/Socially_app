@@ -117,7 +117,7 @@
                     android:id="@+id/profile_image1"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/karenne"
                     android:scaleType="centerCrop" />
 
 
@@ -146,7 +146,7 @@
                         android:id="@+id/pic1"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random11"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -154,7 +154,7 @@
                         android:id="@+id/pic2"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random12"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -162,7 +162,7 @@
                         android:id="@+id/pic3"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random13"
                         android:scaleType="centerCrop" />
                 </LinearLayout>
 
@@ -174,12 +174,12 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp">
 
-                <!-- Profile Image -->
+
                 <ImageView
                     android:id="@+id/profile_imageb"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/maxjaconbson"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -208,7 +208,7 @@
                     android:id="@+id/picb1"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
+                    android:src="@drawable/random14"
                     android:layout_alignParentRight="true"
                     android:scaleType="centerCrop" />
 
@@ -227,7 +227,7 @@
                     android:id="@+id/profile_imagec"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/following1"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -269,7 +269,7 @@
                     android:id="@+id/profile_imaged"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/joshua"
                     android:scaleType="centerCrop" />
 
 
@@ -299,7 +299,7 @@
                         android:id="@+id/picd1"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random15"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -308,7 +308,7 @@
                         android:id="@+id/picd2"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random16"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -317,7 +317,7 @@
                         android:id="@+id/picd3"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random17"
                         android:scaleType="centerCrop" />
 
                     <ImageView
@@ -326,7 +326,7 @@
                         android:id="@+id/picd4"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random18"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -335,7 +335,7 @@
                         android:id="@+id/picd5"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random19"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -344,7 +344,7 @@
                         android:padding="2dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random20"
                         android:scaleType="centerCrop" />
 
 
@@ -367,7 +367,7 @@
                         android:id="@+id/picd7"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random13"
                         android:scaleType="centerCrop" />
 
                     <ImageView
@@ -376,7 +376,7 @@
                         android:layout_marginLeft="4dp"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random14"
                         android:scaleType="centerCrop" />
                 </LinearLayout>
 
@@ -393,7 +393,7 @@
                     android:id="@+id/profile_imagee"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/following1"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -423,7 +423,7 @@
                     android:id="@+id/picbe"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
+                    android:src="@drawable/random5"
                     android:layout_alignParentRight="true"
                     android:scaleType="centerCrop" />
 
@@ -443,7 +443,7 @@
                     android:id="@+id/profile_imagef"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/karenne"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -472,7 +472,7 @@
                     android:id="@+id/picbf"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
+                    android:src="@drawable/random17"
                     android:layout_alignParentRight="true"
                     android:scaleType="centerCrop" />
 
@@ -521,7 +521,7 @@
                     android:id="@+id/picbg"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
+                    android:src="@drawable/random3"
                     android:layout_alignParentRight="true"
                     android:scaleType="centerCrop" />
 
@@ -542,7 +542,7 @@
                     android:id="@+id/profile_imageh"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/joshua"
                     android:scaleType="centerCrop" />
 
 
@@ -571,7 +571,7 @@
                         android:id="@+id/pichi"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random15"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -579,7 +579,7 @@
                         android:id="@+id/pichii"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random17"
                         android:layout_marginEnd="4dp"
                         android:scaleType="centerCrop" />
 
@@ -587,7 +587,7 @@
                         android:id="@+id/pichiii"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/birdpic2"
+                        android:src="@drawable/random11"
                         android:scaleType="centerCrop" />
                 </LinearLayout>
 

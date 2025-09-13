@@ -1,6 +1,9 @@
 package com.example.smda1
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.RelativeLayout
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +14,14 @@ class youactivity_12 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_youactivity12)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+
+        val b=findViewById<TextView>(R.id.following_text)
+
+        b.setOnClickListener{
+
+            val intent = Intent(this, Followingactivity11Activity::class.java)
+            startActivity(intent)
         }
     }
 }
