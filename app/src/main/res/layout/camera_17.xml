@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/sb"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/statusbar"
+        >
+
+    </ImageView>
+
+
+    <RelativeLayout
+        android:id="@+id/storypic"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_below="@+id/sb"
+        >
+
+        <ImageView
+            android:id="@+id/birdpic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/flowerstory"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/chevronright"
+            android:layout_alignParentRight="true">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/chevronright"
+            android:layout_alignParentLeft="true">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/done"
+            android:layout_marginBottom="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/chevronright"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/chevronright"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            >
+
+        </ImageView>
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/chevronright"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="100dp"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/chevronright"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="250dp"
+            >
+
+        </ImageView>
+
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/chevronright"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            >
+
+        </ImageView>
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/bar"
+        android:layout_below="@+id/storypic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7">
+
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="TYPE"
+                android:layout_gravity="center"
+
+                android:textSize="18dp"
+                android:textColor="@color/maroon"
+                android:layout_weight="0.8">
+
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="LIVE"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/maroon"
+                android:layout_weight="0.6">
+
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="NORMAL"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:layout_marginLeft="6dp"
+                android:textColor="@color/maroon"
+                android:layout_weight="1.3">
+
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="BOOMERANG"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/maroon"
+                android:layout_weight="1.8">
+
+            </TextView>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="SUPER"
+                android:layout_gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/maroon"
+                android:layout_weight="1">
+
+            </TextView>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/bar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ine"
+        android:paddingBottom="10dp">
+
+
+    </ImageView>
+
+</RelativeLayout>

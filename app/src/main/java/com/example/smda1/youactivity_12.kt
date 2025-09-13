@@ -50,7 +50,7 @@ class youactivity_12 : AppCompatActivity() {
         val c=findViewById<LinearLayout>(R.id.three)
         c.setOnClickListener{
 
-            val intent = Intent(this, Searcgpage6Activity::class.java)
+            val intent = Intent(this, Postpicture16Activity::class.java)
             startActivity(intent)
         }
 

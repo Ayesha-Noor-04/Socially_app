@@ -13,7 +13,11 @@
         android:theme="@style/Theme.Smda1"
         tools:targetApi="36">
         <activity
+            android:name=".Camera17Activity"
+            android:exported="false" />
+        <activity
             android:name=".Highlight14Activity"
+            android:noHistory="true"
             android:exported="false" />
         <activity
             android:name=".Kyan22Activity"
@@ -26,15 +30,18 @@
             android:exported="false" />
         <activity
             android:name=".Uploadstory19Activity"
+            android:noHistory="true"
             android:exported="false" />
         <activity
             android:name=".Editjacob15Activity"
             android:exported="false" />
         <activity
             android:name=".Craigstory18Activity"
+            android:noHistory="true"
             android:exported="false" />
         <activity
             android:name=".Call10Activity"
+            android:noHistory="true"
             android:exported="false" />
         <activity
             android:name=".Internshaladm9Activity"
@@ -74,7 +81,9 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:noHistory="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
