@@ -18,7 +18,7 @@ class Call10Activity : AppCompatActivity() {
 val btn=findViewById<ImageView>(R.id.call)
 
         btn.setOnClickListener{
-            val intent = Intent(this, Followingactivity11Activity::class.java)
+            val intent = Intent(this, Internshaladm9Activity::class.java)
             startActivity(intent)
         }
     }
