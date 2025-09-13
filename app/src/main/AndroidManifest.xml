@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Smda1"
         tools:targetApi="36">
         <activity
+            android:name=".Highlight14Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Kyan22Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Kyan21Activity"
+            android:exported="false" />
+        <activity
             android:name=".Storyuploaded20Activity"
             android:exported="false" />
         <activity

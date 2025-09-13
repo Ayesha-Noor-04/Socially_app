@@ -183,7 +183,7 @@
                     android:layout_toEndOf="@id/profile_imageb"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="30dp"
-                    android:text="karennne "
+                    android:text="kyan.coleman "
                     android:textStyle="bold"
                     android:textColor="#000000"
                     android:textSize="14sp" />
@@ -867,6 +867,62 @@
             android:layout_marginBottom="-30dp"
             android:layout_height="wrap_content"
             android:src="@drawable/tabbar" />
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/two"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="20dp"
+
+            >
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/three"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="20dp"
+            >
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/four"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="260dp"
+            android:layout_marginRight="20dp"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/five"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="340dp"
+            android:layout_marginRight="0dp"
+
+            >
+
+        </LinearLayout>
 
         <ImageView
             android:layout_alignParentBottom="true"

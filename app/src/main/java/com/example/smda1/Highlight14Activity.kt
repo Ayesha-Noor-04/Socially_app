@@ -4,26 +4,24 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.RelativeLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Storyuploaded20Activity : AppCompatActivity() {
+class Highlight14Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.storyuploaded_20)
+        setContentView(R.layout.highlight_14)
 
 
-        val btn=findViewById<ImageView>(R.id.crossbutton)
+        val w = findViewById<ImageView>(R.id.crossbutton)
 
-        btn.setOnClickListener{
-
-            val intent= Intent(this,Jacobsprofile13Activity::class.java)
+        w.setOnClickListener {
+            val intent = Intent(this, Jacobsprofile13Activity::class.java)
             startActivity(intent)
-
         }
+
     }
 }

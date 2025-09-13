@@ -2,27 +2,27 @@ package com.example.smda1
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.EditText
+import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class Searcgpage6Activity : AppCompatActivity() {
+class Kyan21Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.searcgpage_6)
+        setContentView(R.layout.kyan_21)
 
-val bt=findViewById<EditText>(R.id.search_bar)
 
-        bt.setOnClickListener{
+        val f = findViewById<Button>(R.id.follow)
 
-            val intent = Intent(this, Searchpage7Activity::class.java)
+        f.setOnClickListener {
+            val intent = Intent(this, Kyan22Activity::class.java)
             startActivity(intent)
         }
-
 
         val a=findViewById<LinearLayout>(R.id.one)
         a.setOnClickListener{
