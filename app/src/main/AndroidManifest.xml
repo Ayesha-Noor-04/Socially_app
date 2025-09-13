@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Smda1"
         tools:targetApi="36">
         <activity
+            android:name=".Storyuploaded20Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Uploadstory19Activity"
+            android:exported="false" />
+        <activity
             android:name=".Editjacob15Activity"
             android:exported="false" />
         <activity

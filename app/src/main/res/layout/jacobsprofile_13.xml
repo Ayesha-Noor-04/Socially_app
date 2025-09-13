@@ -286,6 +286,7 @@
             android:layout_height="match_parent">
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/friends"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:src="@drawable/random13"
@@ -577,8 +578,8 @@
                         android:layout_height="120dp"
                         android:layout_columnWeight="1"
                         android:layout_margin="1dp"
-                        android:scaleType="random20"
-                        android:src="@drawable/birdpic" />
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/random20" />
 
 
                 </GridLayout>

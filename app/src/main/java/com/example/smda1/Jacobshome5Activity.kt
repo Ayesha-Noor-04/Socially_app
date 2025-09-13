@@ -38,6 +38,16 @@ val sm=findViewById<ImageView>(R.id.send_icon)
             startActivity(intent)
         }
 
+        val upload=findViewById<ImageView>(R.id.yourstory)
+
+
+        upload.setOnClickListener{
+
+            val intent = Intent(this, Uploadstory19Activity::class.java)
+            startActivity(intent)
+        }
+
+
 
     }
 }
