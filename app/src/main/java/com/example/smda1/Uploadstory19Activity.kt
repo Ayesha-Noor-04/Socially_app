@@ -24,5 +24,14 @@ class Uploadstory19Activity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btn1=findViewById<ImageView>(R.id.topbar)
+
+        btn1.setOnClickListener{
+
+            val intent= Intent(this,Jacobshome5Activity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

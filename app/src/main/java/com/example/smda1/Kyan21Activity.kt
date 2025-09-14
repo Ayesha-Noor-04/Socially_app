@@ -3,6 +3,7 @@ package com.example.smda1
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -57,6 +58,14 @@ class Kyan21Activity : AppCompatActivity() {
             val intent = Intent(this, Jacobsprofile13Activity::class.java)
             startActivity(intent)
         }
+
+        val btn1=findViewById<ImageView>(R.id.chevroneft)
+
+        btn1.setOnClickListener {
+            val intent = Intent(this, Followingactivity11Activity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }

@@ -41,7 +41,7 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/chevronright"
+            android:src="@drawable/circle"
             android:layout_alignParentLeft="true">
 
         </ImageView>

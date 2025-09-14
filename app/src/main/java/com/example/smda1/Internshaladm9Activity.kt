@@ -21,5 +21,13 @@ val btn=findViewById<ImageView>(R.id.videocall)
             startActivity(intent)
         }
 
+        val btn1=findViewById<ImageView>(R.id.back)
+
+        btn1.setOnClickListener {
+            val intent = Intent(this, Searchpage7Activity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

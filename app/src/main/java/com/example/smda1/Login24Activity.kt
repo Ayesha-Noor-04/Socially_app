@@ -3,6 +3,7 @@ package com.example.smda1
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -27,7 +28,12 @@ class Login24Activity : AppCompatActivity() {
             val intent = Intent(this, Jacobshome5Activity::class.java)
             startActivity(intent)
         }
+        val btn1=findViewById<ImageView>(R.id.arrow)
 
+        btn1.setOnClickListener {
+            val intent = Intent(this, Login3Activity::class.java)
+            startActivity(intent)
+        }
 
 
 
