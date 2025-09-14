@@ -573,6 +573,7 @@
                     android:textSize="14sp" />
 
                 <Button
+                    android:backgroundTint="@color/lightmaroon"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:text="Follow"

@@ -5,23 +5,43 @@
     android:layout_height="match_parent"
     android:background="@color/black">
 
+    <!-- Top Status Bar -->
     <ImageView
         android:id="@+id/sb"
-        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/statusbar"
-        >
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/statusbar" />
 
-    </ImageView>
+    <!-- Bottom bar anchored to bottom -->
+    <ImageView
+        android:id="@+id/birdstoryuploaded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/birdstoryuploaded"
+        android:scaleType="centerCrop" />
 
+    <!-- Last heart icon also anchored relative to bottom bar -->
+    <ImageView
+        android:id="@+id/bottomHeart"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/birdstoryuploaded"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="26dp"
+        android:src="@drawable/heart1" />
 
+    <!-- Story Section Between Top and Bottom -->
     <RelativeLayout
         android:id="@+id/storypic"
         android:layout_width="match_parent"
-        android:layout_height="540dp"
-        android:layout_below="@+id/sb"
-        android:layout_marginTop="10dp">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sb"
+        android:layout_above="@id/birdstoryuploaded"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
 
         <ImageView
             android:id="@+id/birdpic"
@@ -30,42 +50,38 @@
             android:src="@drawable/birdpic2"
             android:scaleType="centerCrop" />
 
+        <!-- Top overlay elements -->
         <ImageView
             android:id="@+id/storyline1"
             android:layout_width="350dp"
             android:layout_height="30dp"
-            android:src="@drawable/storyline1"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="0dp"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginStart="10dp"
+            android:src="@drawable/storyline1" />
 
         <ImageView
             android:id="@+id/storyline2"
             android:layout_width="48dp"
             android:layout_height="30dp"
-            android:src="@drawable/storyline2"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="0dp"
-            android:layout_marginLeft="360dp" />
-
+            android:layout_marginStart="360dp"
+            android:src="@drawable/storyline2" />
 
         <ImageView
             android:id="@+id/profilepic"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/gprofile"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginStart="10dp"
+            android:src="@drawable/gprofile" />
 
         <ImageView
             android:id="@+id/crossbutton"
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:src="@drawable/crosswhite"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="370dp" />
+            android:layout_marginStart="370dp"
+            android:src="@drawable/crosswhite" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -73,9 +89,7 @@
             android:text="gursky.studio"
             android:textColor="@color/white"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="50dp">
-
-        </TextView>
+            android:layout_marginStart="50dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -83,59 +97,37 @@
             android:text="11h"
             android:textColor="@color/lightgray"
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="150dp">
+            android:layout_marginStart="150dp" />
 
-        </TextView>
-
+        <!-- Hearts inside storypic, placed roughly in vertical stack -->
         <ImageView
-            android:id="@+id/heart"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/heart1"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="500dp"/>
+            android:layout_marginTop="440dp"
+            android:layout_marginStart="59dp"
+            android:src="@drawable/heart3" />
 
         <ImageView
-
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/heart2"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="470dp"/>
+            android:layout_marginTop="470dp"
+            android:layout_marginStart="26dp"
+            android:src="@drawable/heart2" />
 
         <ImageView
-
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/heart2"
-            android:layout_marginLeft="26dp"
-            android:layout_marginTop="440dp"/>
+            android:layout_marginTop="5000dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/heart2" />
 
         <ImageView
-
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/heart3"
-            android:layout_marginLeft="59dp"
-            android:layout_marginTop="410dp"/>
-
+            android:layout_marginTop="550dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/heart1" />
 
     </RelativeLayout>
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/storypic"
-        android:src="@drawable/birdstoryuploaded">
-
-    </ImageView>
-    <ImageView
-
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/heart1"
-        android:layout_marginLeft="26dp"
-        android:layout_marginTop="600dp"/>
 
 </RelativeLayout>
