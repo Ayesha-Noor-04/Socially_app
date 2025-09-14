@@ -297,15 +297,15 @@
                     android:src="@drawable/birdpic"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true" />
-            </RelativeLayout>
 
-            <ImageView
-                android:id="@+id/post_image"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="8dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/poke1" />
+                <ImageView
+                    android:id="@+id/post_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/poke1" />
+            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"

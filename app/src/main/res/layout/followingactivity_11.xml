@@ -128,7 +128,7 @@
                     android:layout_toRightOf="@id/profile_image1"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="7dp"
-                    android:text="karennne liked 3 posts. 3h"
+                    android:text="@string/karenne"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -184,25 +184,21 @@
 
                 <TextView
                     android:id="@+id/activity_textb"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@id/profile_imageb"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="7dp"
-                    android:text="karennne liked 3 posts."
-                    android:textColor="#000000"
-                    android:textSize="14sp" />
 
-                <TextView
-                    android:id="@+id/activity_textbi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toRightOf="@id/profile_imageb"
-                    android:layout_marginLeft="10dp"
-                    android:layout_below="@id/activity_textb"
-                    android:text="likde joshua photo"
+                    android:text="@string/one"
                     android:textColor="#000000"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+
+                    android:ellipsize="none"
+                    android:scrollHorizontally="false"
+                    android:inputType="textMultiLine"
+                    android:breakStrategy="simple" />
+
 
                 <ImageView
                     android:id="@+id/picb1"

@@ -23,6 +23,16 @@
         android:layout_below="@+id/sb"
         android:layout_marginTop="10dp">
 
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/emptyCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            >
+        </androidx.cardview.widget.CardView>
+
+
         <ImageView
             android:id="@+id/birdpic"
             android:layout_width="match_parent"

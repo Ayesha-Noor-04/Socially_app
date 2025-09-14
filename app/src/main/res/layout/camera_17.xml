@@ -46,23 +46,24 @@
 
         </ImageView>
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/done"
             android:layout_marginBottom="20dp"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/chevronright"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/circle"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true">
 
-        </ImageView>
+        </de.hdodenhof.circleimageview.CircleImageView>
 
         <ImageView
             android:layout_marginBottom="20dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/chevronright"
+            android:src="@drawable/random14"
             android:layout_alignParentBottom="true"
+            android:paddingBottom="7dp"
             android:layout_marginLeft="10dp"
             >
 
@@ -71,7 +72,7 @@
             android:layout_marginBottom="20dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/chevronright"
+            android:src="@drawable/lightening"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="100dp"
             >
@@ -82,7 +83,7 @@
             android:layout_marginBottom="20dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/chevronright"
+            android:src="@drawable/loop"
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="250dp"
             >
@@ -91,9 +92,9 @@
 
         <ImageView
             android:layout_marginBottom="20dp"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/chevronright"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/smiley"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"

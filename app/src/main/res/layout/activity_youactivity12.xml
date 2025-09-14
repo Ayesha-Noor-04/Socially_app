@@ -173,7 +173,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/kyanpfp"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -200,15 +200,13 @@
                     android:textSize="14sp" />
 
 
-
                 <ImageView
                     android:id="@+id/picb1"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
-                    android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
-                    android:scaleType="centerCrop" />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/random1" />
 
                 <View
                     android:layout_marginTop="4dp"
@@ -247,7 +245,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/karenne"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -258,7 +256,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/profile_imageb1"
                     android:layout_marginTop="30dp"
-                    android:text="karennne "
+                    android:text="karennne, and 26 othres"
                     android:textStyle="bold"
                     android:textColor="#000000"
                     android:textSize="14sp" />
@@ -270,7 +268,7 @@
                     android:layout_marginLeft="4dp"
                     android:layout_toRightOf="@id/activity_textb1"
                     android:layout_marginTop="30dp"
-                    android:text="liked your photo"
+                    android:text="liked your"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -280,7 +278,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/activity_textb1"
                     android:layout_marginLeft="60dp"
-                    android:text="liked your photo"
+                    android:text="photo. 3h"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -289,7 +287,7 @@
                     android:id="@+id/picb11"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
+                    android:src="@drawable/random4"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:scaleType="centerCrop" />
@@ -332,7 +330,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/following1"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -343,7 +341,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/profile_imagec"
                     android:layout_marginTop="30dp"
-                    android:text="karennne "
+                    android:text=" "
                     android:textStyle="bold"
                     android:textColor="#000000"
                     android:textSize="14sp" />
@@ -355,7 +353,7 @@
                     android:layout_marginLeft="4dp"
                     android:layout_toEndOf="@id/activity_textc"
                     android:layout_marginTop="30dp"
-                    android:text="liked your photo"
+                    android:text="craige_love mentionde you in a "
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -365,7 +363,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/activity_textc"
                     android:layout_marginLeft="60dp"
-                    android:text="liked your photo"
+                    android:text="comment"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -375,7 +373,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/activity_textcii"
                     android:layout_marginLeft="60dp"
-                    android:text="liked your photo"
+                    android:text="⭐ 2d"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -385,7 +383,7 @@
                     android:id="@+id/picc"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
+                    android:src="@drawable/random8"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:scaleType="centerCrop" />
@@ -431,7 +429,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/maxjaconbson"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -442,7 +440,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@id/profile_imageq"
                     android:layout_marginTop="0dp"
-                    android:text="karennne "
+                    android:text="martini_rond  "
                     android:textStyle="bold"
                     android:textColor="#000000"
                     android:textSize="14sp" />
@@ -454,7 +452,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/activity_textq"
                     android:layout_marginLeft="60dp"
-                    android:text="liked your photo"
+                    android:text="started following you 3d"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -489,7 +487,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/martini"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -499,7 +497,7 @@
                     android:layout_toRightOf="@id/profile_imagew"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="0dp"
-                    android:text="karennne "
+                    android:text="kierro_, zackjohn and 26 others "
                     android:textStyle="bold"
                     android:textColor="#000000"
                     android:textSize="14sp" />
@@ -511,7 +509,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/activity_textw"
                     android:layout_marginLeft="60dp"
-                    android:text="liked your photo"
+                    android:text="liked your photo 3d"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
@@ -546,22 +544,23 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/kierro"
                     android:scaleType="centerCrop" />
+
 
                 <TextView
                     android:id="@+id/activity_texte"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/profile_imagee"
-                    android:layout_marginLeft="10dp"
-                    android:layout_toRightOf="@id/profile_imagee"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginLeft="11dp"
                     android:layout_marginTop="0dp"
+                    android:layout_toEndOf="@id/profile_imagee"
+                    android:layout_toRightOf="@id/profile_imagee"
                     android:text="karennne "
-                    android:textStyle="bold"
                     android:textColor="#000000"
-                    android:textSize="14sp" />
-
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/activity_textqie"
@@ -614,7 +613,7 @@
                     android:layout_height="40dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="3dp"
-                    android:src="@drawable/jacobpfp"
+                    android:src="@drawable/andrew"
                     android:scaleType="centerCrop" />
 
                 <TextView
@@ -625,7 +624,7 @@
                     android:layout_marginLeft="10dp"
 
                     android:layout_marginTop="30dp"
-                    android:text="karennne "
+                    android:text="mis_potter "
                     android:textStyle="bold"
                     android:textColor="#000000"
                     android:textSize="14sp" />
@@ -656,7 +655,7 @@
                     android:id="@+id/picb11m"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/birdpic2"
+                    android:src="@drawable/random7"
                     android:layout_centerVertical="true"
                     android:layout_alignParentRight="true"
                     android:scaleType="centerCrop" />

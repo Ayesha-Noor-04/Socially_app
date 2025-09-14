@@ -60,9 +60,9 @@
 
             <ImageView
                 android:id="@+id/plus"
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:src="@drawable/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/options"
                 android:layout_marginLeft="360dp" />
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -220,9 +220,9 @@
                     <ImageView
                         android:layout_centerVertical="true"
                         android:id="@+id/threadsicon"
-                        android:layout_width="wrap_content"
+                        android:layout_width="17dp"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/micicon"
+                        android:src="@drawable/mention"
                         android:layout_marginLeft="28dp"
                         >
 
@@ -455,7 +455,7 @@
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="wrap_content"
                             android:layout_height="60dp"
-                            android:src="@drawable/jacobpfp"
+                            android:src="@drawable/random11"
                             android:padding="2dp" />
 
                         <TextView
@@ -476,7 +476,7 @@
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="wrap_content"
                             android:layout_height="60dp"
-                            android:src="@drawable/jacobpfp"
+                            android:src="@drawable/random12"
                             android:padding="2dp" />
 
                         <TextView
@@ -497,7 +497,7 @@
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="wrap_content"
                             android:layout_height="60dp"
-                            android:src="@drawable/jacobpfp"
+                            android:src="@drawable/random13"
                             android:padding="2dp" />
 
                         <TextView
@@ -518,7 +518,7 @@
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="wrap_content"
                             android:layout_height="60dp"
-                            android:src="@drawable/jacobpfp"
+                            android:src="@drawable/random14"
                             android:padding="2dp" />
 
                         <TextView
@@ -539,7 +539,7 @@
                         <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="wrap_content"
                             android:layout_height="60dp"
-                            android:src="@drawable/jacobpfp"
+                            android:src="@drawable/random15"
                             android:padding="2dp" />
 
                         <TextView
@@ -626,10 +626,12 @@
                             android:layout_weight="1"
                             >
                             <ImageView
-                                android:paddingTop="5dp"
+                                android:scaleType="centerCrop"
+                                android:padding="3dp"
+
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/birdpic2">
+                                android:src="@drawable/random16">
 
                             </ImageView>
                         </LinearLayout>
@@ -641,10 +643,12 @@
                             >
 
                             <ImageView
-                                android:paddingTop="5dp"
+                                android:padding="3dp"
+                                android:scaleType="centerCrop"
+
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/birdpic2">
+                                android:src="@drawable/random17">
 
                             </ImageView>
                         </RelativeLayout>
@@ -656,10 +660,12 @@
                             >
 
                             <ImageView
-                                android:paddingTop="5dp"
+                                android:padding="3dp"
+                                android:scaleType="centerCrop"
+
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/birdpic2">
+                                android:src="@drawable/random18">
 
                             </ImageView>
                         </RelativeLayout>
@@ -686,10 +692,11 @@
                             android:layout_weight="1"
                             >
                             <ImageView
-                                android:paddingTop="5dp"
+                                android:padding="3dp"
+                                android:scaleType="centerCrop"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/birdpic2">
+                                android:src="@drawable/random13">
 
                             </ImageView>
                         </LinearLayout>
@@ -701,10 +708,11 @@
                             >
 
                             <ImageView
-                                android:paddingTop="5dp"
+                               android:padding="3dp"
+                                android:scaleType="centerCrop"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/birdpic2">
+                                android:src="@drawable/random3">
 
                             </ImageView>
                         </RelativeLayout>
@@ -716,10 +724,11 @@
                             >
 
                             <ImageView
-                                android:paddingTop="5dp"
+                               android:padding="3dp"
+                                android:scaleType="centerCrop"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/birdpic2">
+                                android:src="@drawable/random20">
 
                             </ImageView>
                         </RelativeLayout>

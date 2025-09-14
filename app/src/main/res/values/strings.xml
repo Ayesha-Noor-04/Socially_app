@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">smda1</string>
     <string name="create_and_signup">Create An Account and Sign up</string>
+
+    <string name="karenne"><b>karenne</b> liked 3 posts. <font color="#A9A9A9">3 h</font></string>
+    <string name="one"><b>kiero_d, zackjohn</b> and <b>craig_love</b>\nliked <b>joshua_I</b> photo.<font color="#A9A9A9">3 h</font></string>
+
+    <!-- Can not extract resource from com.android.aaptcompiler.ParsedResource@e40f36e.,Can not extract resource from com.android.aaptcompiler.ParsedResource@69822e48.,Can not extract resource from com.android.aaptcompiler.ParsedResource@50e7d17f.-->
+
+
+
 </resources>

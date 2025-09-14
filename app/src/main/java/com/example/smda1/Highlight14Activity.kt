@@ -2,6 +2,7 @@ package com.example.smda1
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
