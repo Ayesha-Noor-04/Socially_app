@@ -29,6 +29,7 @@
             android:id="@+id/first"
             android:layout_width="55dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
             android:src="@drawable/is"
             >
         </de.hdodenhof.circleimageview.CircleImageView>
@@ -38,7 +39,7 @@
             android:layout_height="wrap_content"
             android:text="internshala"
             android:textSize="19dp"
-            android:layout_marginLeft="70dp"
+            android:layout_marginLeft="82dp"
             android:layout_marginTop="10dp"
             android:textStyle="bold">
 
@@ -158,7 +159,7 @@
     <ImageView
         android:layout_width="30dp"
         android:layout_height="40dp"
-        android:src="@drawable/sendsticker"
+        android:src="@drawable/stickers2"
         android:layout_marginTop="645dp"
         android:layout_marginLeft="340dp">
 

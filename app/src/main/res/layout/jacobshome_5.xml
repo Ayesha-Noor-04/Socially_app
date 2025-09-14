@@ -47,7 +47,8 @@
                 android:id="@+id/camera_icon"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                android:src="@drawable/jacobpfp"
+                android:src="@drawable/camera"
+                android:layout_marginLeft="5dp"
                 android:layout_centerVertical="true"
                 android:layout_alignParentStart="true" />
 
@@ -66,7 +67,7 @@
                 android:id="@+id/reel_icon"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                android:src="@drawable/birdpic"
+                android:src="@drawable/musicreel"
                 android:layout_centerVertical="true"
                 android:layout_toStartOf="@id/send_icon"
                 android:layout_marginEnd="10dp" />
@@ -75,7 +76,8 @@
                 android:id="@+id/send_icon"
                 android:layout_width="28dp"
                 android:layout_height="28dp"
-                android:src="@drawable/birdpic"
+                android:src="@drawable/aero"
+                android:layout_marginRight="5dp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true" />
         </RelativeLayout>
@@ -312,82 +314,85 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:paddingTop="8dp">
-<ImageView
-    android:id="@+id/like"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/heart1">
 
-</ImageView>
+                <ImageView
+                    android:id="@+id/like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/likep">
+
+                </ImageView>
+
                 <ImageView
                     android:id="@+id/comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/like"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:src="@drawable/comment">
 
                 </ImageView>
 
                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/comment"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:src="@drawable/share">
 
                 </ImageView>
 
                 <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:src="@drawable/save">
 
                 </ImageView>
 
                 <ImageView
-                    android:layout_centerHorizontal="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/options">
 
                 </ImageView>
 
                 <TextView
-                    android:layout_below="@+id/like"
                     android:id="@+id/post_likes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/like"
                     android:text="Liked by craig_love and 44,686 others"
-                    android:textStyle="bold"
-                    android:textSize="14sp" />
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:layout_below="@+id/post_likes"
                     android:id="@+id/post_joshua"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/post_likes"
+                    android:layout_marginTop="4dp"
                     android:text="joshua_I"
-                    android:textStyle="bold"
                     android:textSize="14sp"
-                    android:layout_marginTop="4dp" />
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:layout_marginLeft="14dp"
-                    android:layout_below="@+id/post_likes"
                     android:id="@+id/post_caption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/post_likes"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="4dp"
                     android:layout_toRightOf="@+id/post_joshua"
                     android:text="The game in Japan was amazing and I want to"
-                    android:textSize="14sp"
-                    android:layout_marginTop="4dp" />
+                    android:textSize="14sp" />
+
                 <TextView
-                    android:layout_below="@+id/post_joshua"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/post_joshua"
+                    android:layout_marginTop="4dp"
                     android:text="share some photos"
-                    android:textSize="14sp"
-                    android:layout_marginTop="4dp" />
+                    android:textSize="14sp" />
 
             </RelativeLayout>
         </LinearLayout>
@@ -439,10 +444,11 @@
                     android:id="@+id/post_more1"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/birdpic"
+                    android:src="@drawable/options"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true" />
             </RelativeLayout>
+
             <ImageView
                 android:id="@+id/post_image1"
                 android:layout_width="match_parent"
@@ -468,7 +474,7 @@
                     android:layout_toRightOf="@+id/like1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:src="@drawable/comment">
 
                 </ImageView>
 
@@ -476,7 +482,7 @@
                     android:layout_toRightOf="@+id/comment1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:src="@drawable/share">
 
                 </ImageView>
 
@@ -484,7 +490,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:src="@drawable/save">
 
                 </ImageView>
 
@@ -492,7 +498,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/heart1">
+                    android:src="@drawable/options">
 
                 </ImageView>
 

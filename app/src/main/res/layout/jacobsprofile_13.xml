@@ -48,9 +48,9 @@
                 android:id="@+id/chevroneft"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
-                android:src="@drawable/chevronleft"
+                android:src="@drawable/lock"
 
-                android:layout_marginLeft="30dp" />
+                android:layout_marginLeft="144dp" />
 
 
             <TextView
@@ -76,7 +76,7 @@
         android:id="@+id/plus"
         android:layout_width="22dp"
         android:layout_height="22dp"
-        android:src="@drawable/plus"
+        android:src="@drawable/menu"
         android:layout_marginLeft="360dp" />
 
     <de.hdodenhof.circleimageview.CircleImageView
